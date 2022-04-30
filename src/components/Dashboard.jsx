@@ -14,6 +14,7 @@ import {
   drawBoundingBoxes,
 } from "../util/Utils";
 import { dashboardFabsStyle } from "../style/Styles";
+const api = "https://paintmath-backend.herokuapp.com/"
 
 export default function Dashboard() {
   const [paths, setPaths] = React.useState([]);
@@ -96,7 +97,7 @@ export default function Dashboard() {
    * @param {Object} payload Object containing image bytes
    */
   function fetchPrediction(index, payload) {
-    fetch("https://paint-math-backend.herokuapp.com/predict", {
+    fetch(api + "/predict", {
       method: "POST",
       body: JSON.stringify(payload),
     })
