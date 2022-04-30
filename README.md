@@ -10,6 +10,7 @@ handwritten number classification. The model was
 developed using *PyTorch*.
 Applications' front end was developed with *ReactJS*. 
 It communicates with a back end endpoint for classification developed with *Flask*.
+It was deployed on Heroku.
 
 ![app screenshot](diagram.png)
 
