@@ -1,4 +1,4 @@
-# PaintMath
+# PaintMath [open app ↗️](https://paintmath.herokuapp.com/)
 ![app screenshot](screen.png)
 
 ## Description
@@ -46,4 +46,4 @@ For additional instructions press the Help button.
 
 ## Author
 
-Lucija Aleksić
+* Lucija Aleksić
